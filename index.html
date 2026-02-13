@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Docmarket — Buy & Sell Class Notes</title>
+    <meta name="description" content="Docmarket is a student notes marketplace. Upload your notes, set a price, and get paid. Find what you need fast." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="top">
+      <div class="brand">Docmarket</div>
+      <nav class="nav">
+        <a href="#how">How it works</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-cta" href="https://app.docmarket.io">Open App</a>
+      </nav>
+    </header>
+
+    <main class="wrap">
+      <section class="hero">
+        <div class="badge">Student notes marketplace</div>
+
+        <h1>Buy and sell class notes — fast, simple, secure.</h1>
+
+        <p class="sub">
+          Turn your study docs into value. Upload PDFs, set a price, and get paid.
+          Peers find what they need in seconds.
+        </p>
+
+        <div class="actions">
+          <a class="btn" href="https://app.docmarket.io">Open the App</a>
+          <a class="link" href="#how">Learn more</a>
+        </div>
+
+        <div id="how" class="grid">
+          <div class="card">
+            <h3>Upload in minutes</h3>
+            <p>Add your PDF, a title, and a description. Set your price and publish.</p>
+          </div>
+          <div class="card">
+            <h3>Find notes fast</h3>
+            <p>Search by class, professor, topic, or exam. Preview before you buy.</p>
+          </div>
+          <div class="card">
+            <h3>Get paid securely</h3>
+            <p>Payouts handled through Stripe. Simple checkout for buyers.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="faq">
+        <h2>FAQ</h2>
+
+        <details>
+          <summary>Is this the app?</summary>
+          <p>
+            This is the landing page. The full app lives at
+            <a href="https://app.docmarket.io">app.docmarket.io</a>.
+          </p>
+        </details>
+
+        <details>
+          <summary>How do I start selling?</summary>
+          <p>Click “Open the App” and create an account. Then upload your notes and publish.</p>
+        </details>
+
+        <details>
+          <summary>Can I use this on mobile?</summary>
+          <p>Yes — this page and the app are designed to work on mobile and desktop.</p>
+        </details>
+      </section>
+
+      <footer class="foot">
+        <div>© <span id="year"></span> Docmarket</div>
+        <div class="foot-links">
+          <a href="https://app.docmarket.io">Open App</a>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
